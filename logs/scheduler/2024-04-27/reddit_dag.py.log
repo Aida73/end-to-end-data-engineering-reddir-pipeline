@@ -1,0 +1,210 @@
+[2024-04-27T01:31:52.747+0000] {processor.py:157} INFO - Started process (PID=489) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T01:31:52.749+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T01:31:52.753+0000] {logging_mixin.py:151} INFO - [2024-04-27T01:31:52.752+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T01:31:53.814+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T01:31:54.165+0000] {logging_mixin.py:151} INFO - [2024-04-27T01:31:54.164+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T01:31:54.179+0000] {logging_mixin.py:151} INFO - [2024-04-27T01:31:54.179+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T01:31:54.189+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.447 seconds
+[2024-04-27T02:41:22.964+0000] {processor.py:157} INFO - Started process (PID=491) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T02:41:22.965+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T02:41:22.968+0000] {logging_mixin.py:151} INFO - [2024-04-27T02:41:22.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T02:41:23.594+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T02:41:23.671+0000] {logging_mixin.py:151} INFO - [2024-04-27T02:41:23.669+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T02:41:23.723+0000] {logging_mixin.py:151} INFO - [2024-04-27T02:41:23.722+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T02:41:23.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.851 seconds
+[2024-04-27T02:41:54.341+0000] {processor.py:157} INFO - Started process (PID=493) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T02:41:54.343+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T02:41:54.350+0000] {logging_mixin.py:151} INFO - [2024-04-27T02:41:54.349+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T02:41:54.698+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T02:41:54.718+0000] {logging_mixin.py:151} INFO - [2024-04-27T02:41:54.718+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T02:41:54.741+0000] {logging_mixin.py:151} INFO - [2024-04-27T02:41:54.741+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T02:41:54.749+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.420 seconds
+[2024-04-27T03:02:46.073+0000] {processor.py:157} INFO - Started process (PID=495) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T03:02:46.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T03:02:46.084+0000] {logging_mixin.py:151} INFO - [2024-04-27T03:02:46.083+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T03:02:46.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T03:02:46.765+0000] {logging_mixin.py:151} INFO - [2024-04-27T03:02:46.764+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T03:02:47.039+0000] {logging_mixin.py:151} INFO - [2024-04-27T03:02:47.039+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T03:02:47.048+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.983 seconds
+[2024-04-27T04:22:09.582+0000] {processor.py:157} INFO - Started process (PID=497) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T04:22:09.583+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T04:22:09.592+0000] {logging_mixin.py:151} INFO - [2024-04-27T04:22:09.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T04:22:10.537+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T04:22:10.615+0000] {logging_mixin.py:151} INFO - [2024-04-27T04:22:10.614+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T04:22:10.783+0000] {logging_mixin.py:151} INFO - [2024-04-27T04:22:10.783+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T04:22:10.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.216 seconds
+[2024-04-27T05:40:11.702+0000] {processor.py:157} INFO - Started process (PID=499) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T05:40:11.706+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T05:40:11.720+0000] {logging_mixin.py:151} INFO - [2024-04-27T05:40:11.718+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T05:40:12.477+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T05:40:12.900+0000] {logging_mixin.py:151} INFO - [2024-04-27T05:40:12.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T05:40:12.924+0000] {logging_mixin.py:151} INFO - [2024-04-27T05:40:12.924+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T05:40:12.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.258 seconds
+[2024-04-27T07:15:25.443+0000] {processor.py:157} INFO - Started process (PID=501) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T07:15:25.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T07:15:25.451+0000] {logging_mixin.py:151} INFO - [2024-04-27T07:15:25.450+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T07:15:25.935+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T07:15:26.075+0000] {logging_mixin.py:151} INFO - [2024-04-27T07:15:26.075+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T07:15:26.096+0000] {logging_mixin.py:151} INFO - [2024-04-27T07:15:26.096+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T07:15:26.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.677 seconds
+[2024-04-27T08:26:28.357+0000] {processor.py:157} INFO - Started process (PID=503) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T08:26:28.360+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T08:26:28.370+0000] {logging_mixin.py:151} INFO - [2024-04-27T08:26:28.369+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T08:26:28.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T08:26:28.739+0000] {logging_mixin.py:151} INFO - [2024-04-27T08:26:28.739+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T08:26:28.755+0000] {logging_mixin.py:151} INFO - [2024-04-27T08:26:28.755+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T08:26:28.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.438 seconds
+[2024-04-27T09:43:47.373+0000] {processor.py:157} INFO - Started process (PID=505) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T09:43:47.385+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T09:43:47.392+0000] {logging_mixin.py:151} INFO - [2024-04-27T09:43:47.391+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T09:43:47.970+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T09:43:48.016+0000] {logging_mixin.py:151} INFO - [2024-04-27T09:43:48.015+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T09:43:48.031+0000] {logging_mixin.py:151} INFO - [2024-04-27T09:43:48.031+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T09:43:48.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.778 seconds
+[2024-04-27T10:46:38.215+0000] {processor.py:157} INFO - Started process (PID=507) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T10:46:38.218+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T10:46:38.229+0000] {logging_mixin.py:151} INFO - [2024-04-27T10:46:38.229+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T10:46:38.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T10:46:38.575+0000] {logging_mixin.py:151} INFO - [2024-04-27T10:46:38.575+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T10:46:38.694+0000] {logging_mixin.py:151} INFO - [2024-04-27T10:46:38.694+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T10:46:38.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.499 seconds
+[2024-04-27T12:01:19.739+0000] {processor.py:157} INFO - Started process (PID=509) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T12:01:19.740+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T12:01:19.745+0000] {logging_mixin.py:151} INFO - [2024-04-27T12:01:19.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T12:01:20.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T12:01:20.505+0000] {logging_mixin.py:151} INFO - [2024-04-27T12:01:20.504+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T12:01:20.867+0000] {logging_mixin.py:151} INFO - [2024-04-27T12:01:20.867+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T12:01:20.887+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.154 seconds
+[2024-04-27T13:21:20.161+0000] {processor.py:157} INFO - Started process (PID=511) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T13:21:20.166+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T13:21:20.177+0000] {logging_mixin.py:151} INFO - [2024-04-27T13:21:20.175+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T13:21:21.090+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T13:21:21.276+0000] {logging_mixin.py:151} INFO - [2024-04-27T13:21:21.276+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T13:21:21.286+0000] {logging_mixin.py:151} INFO - [2024-04-27T13:21:21.286+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T13:21:21.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.143 seconds
+[2024-04-27T14:38:23.329+0000] {processor.py:157} INFO - Started process (PID=513) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T14:38:23.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T14:38:23.349+0000] {logging_mixin.py:151} INFO - [2024-04-27T14:38:23.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T14:38:23.806+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T14:38:23.846+0000] {logging_mixin.py:151} INFO - [2024-04-27T14:38:23.846+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T14:38:23.883+0000] {logging_mixin.py:151} INFO - [2024-04-27T14:38:23.883+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T14:38:23.905+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.584 seconds
+[2024-04-27T15:50:02.078+0000] {processor.py:157} INFO - Started process (PID=515) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T15:50:02.081+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T15:50:02.101+0000] {logging_mixin.py:151} INFO - [2024-04-27T15:50:02.100+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T15:50:02.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T15:50:02.823+0000] {logging_mixin.py:151} INFO - [2024-04-27T15:50:02.823+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T15:50:02.844+0000] {logging_mixin.py:151} INFO - [2024-04-27T15:50:02.844+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T15:50:03.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.933 seconds
+[2024-04-27T16:41:26.889+0000] {processor.py:157} INFO - Started process (PID=517) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T16:41:26.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T16:41:26.896+0000] {logging_mixin.py:151} INFO - [2024-04-27T16:41:26.896+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T16:41:27.606+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T16:41:27.687+0000] {logging_mixin.py:151} INFO - [2024-04-27T16:41:27.685+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T16:41:27.901+0000] {logging_mixin.py:151} INFO - [2024-04-27T16:41:27.901+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T16:41:27.909+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.033 seconds
+[2024-04-27T16:59:39.041+0000] {processor.py:157} INFO - Started process (PID=519) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T16:59:39.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T16:59:39.049+0000] {logging_mixin.py:151} INFO - [2024-04-27T16:59:39.048+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T16:59:39.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T16:59:39.861+0000] {logging_mixin.py:151} INFO - [2024-04-27T16:59:39.859+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T16:59:40.198+0000] {logging_mixin.py:151} INFO - [2024-04-27T16:59:40.198+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T16:59:40.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.189 seconds
+[2024-04-27T17:36:12.288+0000] {processor.py:157} INFO - Started process (PID=521) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:36:12.290+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T17:36:12.299+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:36:12.298+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:36:12.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:36:12.840+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:36:12.839+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T17:36:12.877+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:36:12.876+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T17:36:12.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.621 seconds
+[2024-04-27T17:36:49.108+0000] {processor.py:157} INFO - Started process (PID=523) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:36:49.110+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T17:36:49.117+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:36:49.116+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:36:49.603+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:36:49.619+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:36:49.619+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T17:36:49.628+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:36:49.628+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T17:36:49.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.539 seconds
+[2024-04-27T17:53:11.550+0000] {processor.py:157} INFO - Started process (PID=525) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:53:11.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T17:53:11.558+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:53:11.557+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:53:12.187+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T17:53:12.236+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:53:12.235+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T17:53:12.272+0000] {logging_mixin.py:151} INFO - [2024-04-27T17:53:12.272+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T17:53:12.529+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.988 seconds
+[2024-04-27T19:00:32.300+0000] {processor.py:157} INFO - Started process (PID=527) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:00:32.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T19:00:32.313+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:00:32.313+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:00:32.660+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:00:32.701+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:00:32.701+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T19:00:33.086+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:00:33.085+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T19:00:33.113+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.836 seconds
+[2024-04-27T19:16:27.426+0000] {processor.py:157} INFO - Started process (PID=529) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:16:27.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T19:16:27.431+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:16:27.431+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:16:27.792+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:16:27.835+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:16:27.834+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T19:16:28.171+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:16:28.170+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T19:16:28.195+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.794 seconds
+[2024-04-27T19:48:56.349+0000] {processor.py:157} INFO - Started process (PID=531) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:48:56.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T19:48:56.361+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:48:56.360+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:48:57.055+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T19:48:57.349+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:48:57.348+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T19:48:57.381+0000] {logging_mixin.py:151} INFO - [2024-04-27T19:48:57.381+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T19:48:57.401+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.068 seconds
+[2024-04-27T21:10:54.593+0000] {processor.py:157} INFO - Started process (PID=533) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T21:10:54.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T21:10:54.603+0000] {logging_mixin.py:151} INFO - [2024-04-27T21:10:54.603+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T21:10:55.426+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T21:10:55.450+0000] {logging_mixin.py:151} INFO - [2024-04-27T21:10:55.449+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T21:10:55.460+0000] {logging_mixin.py:151} INFO - [2024-04-27T21:10:55.460+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T21:10:55.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.888 seconds
+[2024-04-27T22:37:09.166+0000] {processor.py:157} INFO - Started process (PID=535) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T22:37:09.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T22:37:09.173+0000] {logging_mixin.py:151} INFO - [2024-04-27T22:37:09.172+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T22:37:09.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T22:37:09.530+0000] {logging_mixin.py:151} INFO - [2024-04-27T22:37:09.530+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T22:37:09.542+0000] {logging_mixin.py:151} INFO - [2024-04-27T22:37:09.542+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T22:37:09.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.391 seconds
+[2024-04-27T22:51:40.297+0000] {processor.py:157} INFO - Started process (PID=537) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T22:51:40.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T22:51:40.324+0000] {logging_mixin.py:151} INFO - [2024-04-27T22:51:40.323+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T22:51:40.902+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T22:51:40.977+0000] {logging_mixin.py:151} INFO - [2024-04-27T22:51:40.971+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T22:51:41.318+0000] {logging_mixin.py:151} INFO - [2024-04-27T22:51:41.317+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T22:51:41.342+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.054 seconds
+[2024-04-27T23:08:35.130+0000] {processor.py:157} INFO - Started process (PID=539) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:08:35.136+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T23:08:35.154+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:08:35.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:08:35.798+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:08:35.840+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:08:35.839+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T23:08:36.537+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:08:36.537+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T23:08:36.550+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.432 seconds
+[2024-04-27T23:09:13.418+0000] {processor.py:157} INFO - Started process (PID=541) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:09:13.423+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T23:09:13.441+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:09:13.440+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:09:13.791+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:09:14.266+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:09:14.266+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T23:09:14.279+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:09:14.279+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T23:09:14.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.885 seconds
+[2024-04-27T23:11:54.402+0000] {processor.py:157} INFO - Started process (PID=543) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:11:54.407+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T23:11:54.426+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:11:54.425+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:11:55.177+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:11:55.453+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:11:55.453+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T23:11:55.466+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:11:55.466+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T23:11:55.473+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 1.084 seconds
+[2024-04-27T23:28:32.822+0000] {processor.py:157} INFO - Started process (PID=545) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:28:32.825+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T23:28:32.840+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:28:32.839+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:28:33.574+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:28:33.597+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:28:33.597+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T23:28:33.611+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:28:33.611+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T23:28:33.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.816 seconds
+[2024-04-27T23:44:40.369+0000] {processor.py:157} INFO - Started process (PID=547) to work on /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:44:40.371+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/reddit_dag.py for tasks to queue
+[2024-04-27T23:44:40.378+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:44:40.377+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:44:40.786+0000] {processor.py:839} INFO - DAG(s) dict_keys(['etl_reddit_pipeline']) retrieved from /opt/airflow/dags/reddit_dag.py
+[2024-04-27T23:44:40.835+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:44:40.834+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2024-04-27T23:44:41.212+0000] {logging_mixin.py:151} INFO - [2024-04-27T23:44:41.212+0000] {dag.py:3722} INFO - Setting next_dagrun for etl_reddit_pipeline to 2024-04-27T00:00:00+00:00, run_after=2024-04-28T00:00:00+00:00
+[2024-04-27T23:44:41.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/reddit_dag.py took 0.891 seconds

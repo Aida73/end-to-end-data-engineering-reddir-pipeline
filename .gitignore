@@ -1,0 +1,7 @@
+<<<<<<< HEAD
+env/
+=======
+config/
+venv/
+/airflow.env
+>>>>>>> 99b1c2d (add project files)

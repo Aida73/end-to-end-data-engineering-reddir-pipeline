@@ -1,0 +1,320 @@
+created_utc,url,spoiler,stickied,author,selftext,upvote_ratio,score,id,num_comments,over_18,edited
+2024-04-24 20:59:14,https://www.reddit.com/r/dataengineering/comments/1cc9gh3/what_data_engineering_product_are_you_most/,False,False,babaisfun,"I know this is off topic but wanted to go to the source (you nerds).  
+
+I was laid off my Enterprise sales job late last year.  Have found myself wanting to jump into a role that serves data engineers for my next gig.  I have done a bit of advisory/consulting around DE topics but did not spend 100% of my time consulting in that area.
+
+Companies like Monte Carlo Data, Red Panda, Grafana, and Cribl all look to be selling great products that move the needle in different ways.
+
+Any other products/companies I should be looking at? Want to help you all do your jobs better! ",0,44,1cc9gh3,56,False,0
+2024-04-25 10:17:54,https://i.redd.it/4jqfd7fnplwc1.png,False,False,wanshao,,0,36,1ccodiy,7,False,0
+2024-04-25 00:09:20,https://www.reddit.com/r/dataengineering/comments/1ccdveg/whats_one_problem_your_organization_is_willing_to/,False,False,glinter777,"It seems like all companies “right now” are in cost cutting mode. Most are trying to do the best with what they have, surgically hiring / backfilling. I’m curious hear what types of problems / project are actually getting funded. ",0,32,1ccdveg,45,False,0
+2024-04-24 23:38:04,https://medium.com/@nydas/an-opinionated-guide-to-layering-your-analytics-and-reporting-pipelines-b1d8a510b671,False,False,nydasco,"I recently published an article on Medium discussing the layers of a reporting pipeline. I discuss the key steps in developing such a pipeline, breaking it down into distinct layers and explaining the processes that occur at each stage. 
+
+I thought the folks in this sub might find it interesting. Keen to hear whether you agree or disagree with some of my thoughts.
+
+",0,10,1ccd6rs,11,False,0
+2024-04-25 01:26:34,https://www.reddit.com/r/dataengineering/comments/1ccfhl8/onprem_trying_to_get_cloud_experience_what_kind/,False,False,findingjob,"I am currently a data engineer but mainly do on-premises work with legacy infrastructure (Autosys as our scheduler, IBM tools for Ci/Cd). We move data and process them using stored procedures, Linux, and PowerShell. I think these are dead-end technologies and would like to learn cloud development to apply to other jobs. 
+
+My company is in a hybrid model, so some teams are working with cloud services. Fortunately, I have access to the tools we use: GCP BigQuery and Gcp Composer (Airflow scheduler). 
+
+I’m currently dabbling with doing simple things like creating airflow DAGs on simple tasks like creating and deleting tables and copying data from one table to another. 
+
+My question is: 
+
+Do you know of good projects I can do to get the concept down of these cloud tools, enough to put it on my LinkedIn? I won’t have any professional projects so I’ll have to create them myself. 
+
+I want to do projects so I feel confident enough to apply for jobs using these technologies. I am currently just creating tables, copying, inserting, etc all using Python and big query.
+
+What kind of projects should I be doing to feel like I’m getting a good grasp of real data engineering on the cloud? 
+
+Thank you in advance!",1,8,1ccfhl8,5,False,0
+2024-04-25 03:48:01,https://www.reddit.com/r/dataengineering/comments/1ccian9/parquet_format_using_for_logs_storage/,False,False,sebastiandang,"Hi, Is it common/good approach when I create/write logs with a minimum *low spec SparkApplication. Then store it in Parquet format and transfer it in to Bronze Layer?
+What do you think about this approach? Please let me know!",0,6,1ccian9,4,False,0
+2024-04-25 13:49:13,https://www.reddit.com/r/dataengineering/comments/1ccsf39/the_data_engineering_hype_cycle_is_beginning/,False,False,engineer_of-sorts,"Credit to Julien H for sharing this on Linkedin. Kinda didn't believe it at first but there you go
+
+&#x200B;
+
+https://preview.redd.it/j62ujlacrmwc1.png?width=1884&format=png&auto=webp&s=4f324f6092a8dab48f6bc919cc13d8bcd5b10b57
+
+Looks like people are realising our importance for Gen AI slowly, but surely.",0,9,1ccsf39,6,False,0
+2024-04-25 10:05:35,https://www.reddit.com/r/dataengineering/comments/1cco6ge/s3_datalake_or_just_use_lake_formation/,False,False,Ok_Illustrator72,"Hello People, I need your advice!
+
+I need to provide data for data analysis in my company. My company uses AWS RDS MariaDB. Is it a better option to move the data with CDC to S3 as parquet files for the data lake, or just use Lake Formation to fetch the data directly from RDS MariaDB? Which option is more performant? My understanding is RDS MariaDB is optimized for OLTP workloads. If I use Lake Formation to fetch data, will it be faster than querying Parquet files from S3 using Athena or Redshift Spectrum?
+
+Note: i am talking about data size of 20 TB. The newly formed data analytics team wants real time data. A little lag is acceptable",0,6,1cco6ge,3,False,0
+2024-04-24 16:18:22,https://www.reddit.com/r/dataengineering/comments/1cc2cl9/should_i_store_my_gold_layer_data_in_a_database/,False,False,scht1980,"Hi team,
+
+ 
+
+Require some expert advice here from a newbie. Not solving for world hunger but looking for the best way to solve this problem and wondering how the rest of the data engineering world would go about solutioning this.
+
+Details are:
+
+1.       My source systems are API files and the ingested format is stored in ADLS GEN2 as parquet files.
+
+2.       I use Databricks and the medallion architecture and delta tables for data engineering activities.
+
+3.       My target application is SAP Datasphere. Its SAP’s cloud solution to data warehouse. If you are wondering why not perform the data engineering activity in SAP Datasphere, we can but for the sake of this conversation, lets leave that for another day.
+
+So the problem that I am trying to understand here is this, given that delta table in Databricks is made out of multiple parquet files and another folder call \_delta\_log, in my Gold layer, I am seeing multiple parquet file and this additional \_delta\_log folder. I know this is not an issue if I am querying the folder as opposed to the individual parquet file.
+
+So the question here is this, when I expose my ADLS GEN2 for the GOLD layer to SAP Datasphere, SAP Datasphere will have access to all of the parquet files and \_delta\_log folder. I don’t believe this is an issue but I am concern that an uninformed user will read the individual parquet file instead of the entire folder and produce incorrect result.
+
+I am wondering if it is best to store my business level aggregate data in the gold layer in a database before as opposed to exposing my ADLS GEN2 to avoid this problem.
+
+I have also attached a screenshot from SAP Datasphere and as you can see, it contains multiple parquet file.
+
+https://preview.redd.it/s6wldo34dgwc1.png?width=881&format=png&auto=webp&s=ecb734ec15757edaab84f20e4c38c33315763e1c
+
+Am I overthinking this and any guidance is greatly appreciated.
+
+ 
+
+ 
+
+ 
+
+ ",1,6,1cc2cl9,3,False,0
+2024-04-24 19:31:33,https://www.reddit.com/r/dataengineering/comments/1cc79rr/bsfree_guide_to_dominating_the_movie_data/,False,False,JParkerRogers,"With my Movie Data Modeling Challenge officially underway, I released a blog packed with insights and proven strategies designed to help data professionals dominate not only this challenge, but any data project.
+
+All insights are drawn from extensive discussions with top performers from my recent NBA Data Modeling Challenge. They told me what works, and I just took notes! 📝
+
+Sneak peek of what you'll find in the blog:
+
+**A Well-Defined Strategy:** Master the art of setting clear objectives, formulating questions, embracing the 'measure twice, cut once' approach, and effectively telling stories with data.
+
+**Leveraging Paradime:** Learn how to maximize Paradime's robust features to enhance your analytics engineering productivity and streamline your SQL and dbt development processes. (This tool is required in the challenge)
+
+Whether you're aiming to dominate the Movie Data Modeling Challenge or seeking to refine your techniques in data projects, these insights are invaluable.
+
+[Dive into the full blog here!](https://www.paradime.io/blog/winning-strategies-movie-challenge)",0,6,1cc79rr,0,False,0
+2024-04-25 10:20:07,https://www.reddit.com/r/dataengineering/comments/1ccoerb/need_help_with_productattribute_data_modelling/,False,False,cevadfolyok,"Hello there,
+
+I've been working on and stuck on a data modeling problem for a while.
+
+Incoming data is typical product-attribute data. Products have common attributes, but every product type has specific attributes, like PCs' RAM capacity and CPU core count, TVs' panel technology, resolution, etc. Some attributes have more than 1 value.
+
+I need to design a data model for our data lakehouse, which operates with Delta Lake. 
+
+Here are the proposal models that I am considering:
+
+1)
+
+ProductTable -> Every product sits here with its common attributes.
+
+PcProductTable, TVProductTable, …. -> Create separate tables for each product type and keep specific attributes as separate columns
+
+Multi-valued attributes can be divided into a lookup table or kept in an array inside the corresponding table.
+
+2)
+
+ProductTable -> Every product sits here with its common attributes.
+
+AttributeTable -> EAV table for keeping all attributes in a single table with a value column.
+
+Multi-valued attributes are just inserted as a new row in the table.
+
+Example data:	
+
+product_id , attribute_name , value
+
+1,ram_capacity,8GB
+
+1,country,USA
+
+1,country,Canada
+
+2,resouliton,1920x1080
+
+2,energy consumption,70w
+
+
+My main concerns are applying delta changes and keeping track of historical data. Applying SDC to the second approach sounds complex, but I don't have any clue how to prove it.
+
+Can you evaluate the proposed models in terms of dimensional modelling and reporting performance?  
+Have you guys ever designed a warehouse/lakehouse like this? 
+What is the best approach do you suggest?
+
+I appreciate your help!",1,4,1ccoerb,2,False,0
+2024-04-25 05:34:07,https://www.reddit.com/r/dataengineering/comments/1cck5fd/new_etl_software_suggestion_switching_from_sql_etl/,False,False,Pillstyr,"In my company, the ETL is done using plain old SQL. Now that I will be given ETL post, I want to have other software or tech to do the ETL.
+
+We are mostly on-prem Oracle Database. It's a courier & logistics company so data is in millions here.
+
+Please if you could suggest me any software or any other alternative which would help me in my case.
+
+And just to let you know, I'm coming from a BI background, I've been doing SQL, Power BI and some Python for last 2 years (if this info is also relevant)",1,4,1cck5fd,7,False,0
+2024-04-24 15:28:05,https://www.reddit.com/r/dataengineering/comments/1cc12yr/schema_evolution_with_serverless_sql_databases/,False,False,Mathlete7,"Hello everyone, currently, I'm dealing with a situation where data is moved to a silver layer, and external tables are created on top of it. Unfortunately, there are instances where additional columns are added to the source data, causing our external SQL databases to break.
+
+Our current workaround involves manually dropping and recreating the external table, which does the job, and Synapse successfully detects the datatypes. However, we aim to automate this process.
+
+One workaround I've considered is running a notebook after the pipeline, which drops and recreates the table to ensure the schema is up to date. Additionally, we might be able to compare the number of columns between the silver layer and the external SQL database later on to see if we can run this when it needs to. 
+
+The only challenge is ensuring that Synapse autodetects column types like it does when done manually. I'm not entirely sure how to achieve this.
+
+&#x200B;
+
+Any advice is appreciated
+
+&#x200B;",1,5,1cc12yr,2,False,0
+2024-04-25 12:58:43,https://www.reddit.com/r/dataengineering/comments/1ccrag8/job_expectation_vs_reality/,False,False,JackalTheFulgid,"Hi all,
+
+I’m a data engineer and I’ve been learning the ropes in cloud since starting one and a bit years ago. I moved to a company that advertised predominantly cloud tech with a tiny bit of on-prem, but so far for the third sprint, we’re consumed by on-prem work that I’m not trained in and I’m starting to get fed up.
+
+I’m doing some certifications outside of work for cloud but at the same time considering changing companies as my career trajectory is cloud and not on-prem. Has anyone been in this position? Is there any point in staying too long?
+
+Thanks ",1,3,1ccrag8,2,False,0
+2024-04-25 10:07:56,https://www.reddit.com/r/dataengineering/comments/1cco7qf/multiple_fact_tables_vs_one/,False,False,Due-Quality1498,"I'm working with a database with HR data, and I'm gonna create a tabular model. Most of the tables have start- and end dates.
+Some of the tables have dimensional information like about where employees work at different time periods.
+
+So my question is what will be the best solution? To create one big table with 1 date for all employees, or use measures between the tables using their start- and end dates?
+
+Resources like articles/videos about this subject would also be appreciated.
+",1,3,1cco7qf,5,False,0
+2024-04-25 07:23:05,https://www.reddit.com/r/dataengineering/comments/1cclunj/etl_data_modeling_and_database_design/,False,False,Siddboss195803,"I am new to the ETL development field. I have worked on ETL testing before but I wanted to try my hands on development. I want to learn ETL strategies, datawarehouse design techniques, data modeling. Any resources are welcome, thanks in advance!",0,3,1cclunj,5,False,0
+2024-04-25 01:13:09,https://www.reddit.com/r/dataengineering/comments/1ccf7nm/apache_beam_pipeline_unlimited_input_limited/,False,False,colour_doesnt_matter,"Hi, data engineers - I'm new to Apache Beam and I'm working out how it might apply to an unusual use case...
+
+Let's say I'd like to run a pipeline that will send exactly 10,000 email alerts (or as many as it can before running out of data), with the addresses to attempt stored in a BigQuery table. Sensibly, you would do this by just querying for 10,000 rows so your input PCollection had the correct number, and push them all through the pipeline.
+
+The hangup is that in this situation, I can't tell whether an email can count as successful until after it's attempted to process. If processing didn't happen (because the email was on a blocklist, etc) I'd like to keep going until the maximum of 10,000 has been fulfilled.
+
+To do this I think I need to do a couple of things:
+
+* Keep track of the number of successful processes across all the workers running the job. If we've reached the limit, process no more rows.
+* Pull more rows as needed until the limit is fulfilled (does some sort of streaming arrangement exist in Beam for BigQuery so that a query can pull more rows until the limit has been fulfilled?)
+
+Is Beam a suitable solution for this kind of arrangement, or am I thinking about it wrongly? Thanks for any advice!",1,3,1ccf7nm,2,False,0
+2024-04-24 21:55:37,https://www.reddit.com/r/dataengineering/comments/1ccau5j/postgres_powerbi_loading_recommendations/,False,False,minormisgnomer,"As title states, right now struggling to load power bi efficiently. Having to use the ODBC connection rather than Postgres since I have SSL enabled. I think what’s happened is it has forced everything into a single thread.
+
+The Postgres database is on premise running on a Linux server. 
+
+Options on the table right now:
+1. Turn SSL off for connections coming from on network machines with PowerBI desktop
+2. Use PowerBI gateway
+3. Direct Query
+4. ???
+
+Our CISO is skeptical of PowerBI gateway so anyone working that angle, I’d love to hear how it’s not a security risk, etc.",0,3,1ccau5j,3,False,0
+2024-04-24 21:33:00,https://www.reddit.com/r/dataengineering/comments/1ccaaih/delta_format_merge_into_question/,False,False,DataDarvesh,"I am querying the source table with a filter greater than the last\_update\_time. My source (update) df has 940 distinct (deduped) rows (Databricks). I am merging into the target table (delta format) with when matched on the key, update set \* and when not matched insert \*. My target table does not have duplicates. 633 rows are matching. When I look at the Operation Metrics (in Databricks) of the target table on the ""merge"" operation, I see that 633 rows have been matched and updated, and 374 rows have been inserted, and the source df rows are 940. But 633 + 374 = 1007. Shouldn't my updated and inserted rows sum up to 940? What are those extra 67 rows? ",1,3,1ccaaih,0,False,0
+2024-04-24 17:21:56,https://www.reddit.com/r/dataengineering/comments/1cc3zjf/dynamic_sql_in_postgres/,False,False,yoquierodata,"I’ve got a use case where I have a table of “configurations” by ID and another table that holds the base data. The configurations table has an ID along with a string column which is a WHERE clause. My objective is to produce one table with the ID plus the results of a query based on the configuration.
+
+Config Table 
+
+|ID|CONFIG|
+|:-|:-|
+|ABC123|(region=‘A’ and segment in (‘s1’,s2’))|
+|||
+
+Base Data Table 
+
+
+
+|Region|Segment|Customer Type|
+|:-|:-|:-|
+|A|S1|T1|
+|B|S1|T9|
+
+
+
+When we did this in Snowflake and DBT we used a Jinja loop to build a SQL statement comprised of UNION statements for each ID. Now that we have thousands of ID values we are nearing the upper limit for the size of a single SQL statement/script. Now we want to port this to Postgres for a semi unrelated reason.
+
+Is porting this over to a Stored Proc that would be called for each ID the *only* solution here? Obviously performance is going to be a big factor, but I am struggling to come up with an alternative solution for the problem of dynamic SQL queries.
+
+TIA!",1,3,1cc3zjf,1,False,0
+2024-04-25 13:35:17,https://www.reddit.com/r/dataengineering/comments/1ccs3vs/opensource_solution_for_a_tiny_data_warehouse/,False,False,LeatherPuzzled3855,"Hi folks, sysadmin in a tiny enterprise here, today wearing a data engineer hat :)  
+was pitted with a task of creating a data warehouse on prem, for BI purposes. C-suite wants some performance and financial data from different departments nicely displayed in series of different dashboards.  
+the source of data coming in will be couple of local sql db instances(3-4) I do not expect a major amount of data, mainly sales figures and some performance metrics. As cost is a major factor the whole stack has to be opensource. Did a bit of googling and came up with stack as follows:  
+Apache Airflow for connection to sql db(source data) postgreSQL as DB, dbt for modelling and Redash for dashboards.  
+Does the above setup makes sense from the requirement point?   
+I will be the sole implementer and maintainer of this platform so ideally for me would be to have a stack build out of ready made programs, rather than going the Python route and developing some components myself(lack the coding skill and time, my proficiency in Python = being able to edit the code that chatGPT spits out so it somewhat does what I need:)   
+appreciate any advice on this, thanks.",1,2,1ccs3vs,11,False,0
+2024-04-25 11:38:56,https://www.reddit.com/r/dataengineering/comments/1ccpqff/non_conforming_database_name_in_aws_using/,False,False,brunudumal,"Tl;dr: db name error when deploying even after fixing it in code
+
+Someone 🌚 added a non-conforming database name in terraform. So when we run terraform plan we got the error: error reading glue catalog database... Unexpected format... Expected CATALOG-ID:DATABASE-NAME 
+
+The issue seems to come from a database name that is stored in a glue module. He 🌚 probably copy and pasted the bucket url with ""s3://"" in the db name field. 
+
+Quickfix right? I'd think so, but every name mention has been fixed whoever terraform doesn't deploy and throw the same error. I tried to rollback the changes in git and the issue continues. 
+
+Any clue or insight is welcome. 
+Plz help",1,2,1ccpqff,0,False,0
+2024-04-25 06:46:44,https://www.reddit.com/r/dataengineering/comments/1ccla6n/cdc_with_azure_sql_server_debezium_eventhub/,False,False,Legitimate-Cry-2492,"I follow the https://devblogs.microsoft.com/azure-sql/azure-sql-change-stream-with-debezium/
+
+Who explain how to install and configurate this solution. But I'm stuck. When I install the container all the config eventhubs were created( config,status and offset) but when I create my connector with the api command between the Azure sqlserver and Debezium none topic or eventhubs was created in azure.
+
+If you have an idea?  It could be awesome. 
+Do you think is up to date solution or I should spend my time to create my own CDC message producer?",1,2,1ccla6n,0,False,0
+2024-04-25 05:12:23,https://www.reddit.com/r/dataengineering/comments/1ccjshm/delta_lake_merge_question/,False,False,bcsamsquanch,"Probably  a noob question but I can't find a reference in any doc that will satisfy me of how it works..
+
+Trying to replay CDC.. inserts, updates, deletes. I've separated the inserts from mods to run inserts first so a modified record always exists in the delta table. Ok assuming keys will never be reused. Sorted both these dfs appropriately.all good.
+
+But when I run the merge for the mods is there a guarantee they'll merge in the sort order? What if there's a bunch of updates to the same record, in rapid succession? Do i need to do anything like dedup first? Obviously I want the most recent state to be reflected at the end.",1,2,1ccjshm,2,False,0
+2024-04-25 03:22:04,https://www.reddit.com/r/dataengineering/comments/1cchtjk/enterprise_etl_tool_recommendation/,False,False,sidy66,"Hi All,
+I am an experienced ETL developer with 4 years of experience in Ab Initio. Due to some circumstances, I had to work mainly on SQL and pandas only for last 2 years and lost touch with Ab Initio. Now I feel like I have to start from the scratch. Also as companies are moving away from costly tools like Ab Initio and Informatica and the trend changed due to modern data lake architecture…  What would be the one enterprise level ETL tool that you will recommend for learning to build data pipelines in 2024 at least for doing the EL in data integration. 
+
+Thanks!",0,2,1cchtjk,4,False,0
+2024-04-24 21:00:25,https://www.reddit.com/r/dataengineering/comments/1cc9hjf/resources_for_data_migrations/,False,False,thisisnice96,"Hey everyone,
+
+I’m seeking some advice and resources on data migrations as I transition into a potential data engineering role. My first project might involve migrating data, possibly from legacy systems to the cloud (AWS or Snowflake). While I don’t have all the details yet, I want to be fully prepared for this task.
+
+Are there any recommended books, courses, or resources that cover the essentials of data migrations? I’m particularly interested in learning about the staple steps, writing test cases, and ensuring a smooth transition of pipelines into the new destination.
+
+It seems like there’s a wealth of resources in the data world, but I’ve found that information on data migrations is somewhat lacking. Any advice or pointers would be greatly appreciated. Thanks in advance!",1,2,1cc9hjf,3,False,0
+2024-04-24 20:04:12,https://www.reddit.com/r/dataengineering/comments/1cc83af/frontend_vs_backend/,False,False,Emotional_Key,"My understanding of these terms is that a Frontend DE is dealing with the visualisation part(Building Reports, Dashboards, etc.) and the Backend DE is dealing with preparing the data to be visualised.
+
+But are these 2 roles actually separated or a data engineer is supposed to know and do both? 
+
+I am lacking on the Frontend part, and I am not really enjoying building SSRS reports and PowerBI dashboards.
+
+I want to understand if I should focus on it, or if I can live happily in my Backend world.
+
+",0,3,1cc83af,6,False,0
+2024-04-24 18:23:42,https://serpapi.com/blog/google-search-parameters/,False,False,softcrater,,1,2,1cc5l23,0,False,0
+2024-04-24 16:59:28,https://www.reddit.com/r/dataengineering/comments/1cc3eej/scale_trading_data_storage/,False,False,SpinachStrange9976,"I have about 20 TB of trading data on cryptocurrency exchanges. The data is stored on one server at Clickhouse. Every day new data comes into the database.
+
+Host spec:
+Network: 1 Gbit
+hdd: 2 x TOSHIBA_MG08ACA16TEY
+RAM: 128 GB
+
+The data is used by a team of researchers and occasionally the data transfer speed is not enough if several people access the server or read and write at the same time.
+
+What is the best way to increase the data transfer rate in my case? Let's discuss it.",0,2,1cc3eej,1,False,0
+2024-04-24 15:09:32,https://www.reddit.com/r/dataengineering/comments/1cc0mqb/airflow_etl_processes/,False,False,Beautiful-Law7386,"Using airflow for the first time… 
+I am working on a project to test a data source integration with my warehouse. I want to take some tables from the operational DB, do some transformation and load the data in my clickhouse db. 
+I am new to this so i was just selecting a table in one task and trying to convert it into a dataframe in the following task but there was information sharing error. I know the solution i just wanted to know what are some best practices to extract data transform it and then load? Best way to do data sharing between tasks etc. 
+ Do these three steps in three tasks or create sub-tasks for each smaller tasks and make DAGs for each process… ",0,2,1cc0mqb,1,False,0
+2024-04-25 13:58:32,https://www.reddit.com/r/dataengineering/comments/1ccsms9/tips_on_dealing_with_json_data/,False,False,AMDataLake,"Preferred ways of transforming your JSON data, preferred tools for querying JSON, etc.",1,1,1ccsms9,4,False,0
+2024-04-25 12:12:59,https://www.reddit.com/r/dataengineering/comments/1ccqdto/leveraging_nlp_in_data_pipelines_for_enhanced/,False,False,VarshaH_1234,"Discover how integrating [NLP based data pipeline tool](https://askondata.com/) amplifies insights from unstructured text data. Explore NLP's role in extracting, transforming, and loading data efficiently. Discuss real-world applications, challenges, and future trends. Join us to uncover strategies for leveraging NLP to drive informed decision-making and gain competitive advantage.",1,1,1ccqdto,0,False,0
+2024-04-24 23:09:43,https://www.reddit.com/r/dataengineering/comments/1cccjwy/sql_preset_for_raycast_ai/,False,False,0xIgnacio,"I’ve created a Raycast preset for SQL to boost your database work. It can be used on Raycast AI if you have latest version.
+
+System instructions:
+
+    Act as a SQL expert. Your answers should include an explanation, SQL language using good practices and highlighting concepts.
+    These are the rules:
+    - Create efficient SQL queries that do not overload the server.
+    - Optimize performance through adjustments to indexes and database structures.
+    - Develop stored procedures and functions to handle complex operations.
+    - Implement SQL scripts that automate routine tasks.
+    - Manage transactions to maintain data integrity.
+    - Debug queries and scripts to fix errors.
+    - Integrate SQL with other programming languages to facilitate the creation of more robust applications.
+
+[Raycast link](https://presets.ray.so/shared?preset=%7B%22creativity%22:%22low%22,%22web_search%22:true,%22model%22:%22openai-gpt-4-turbo%22,%22name%22:%22SQL%20expert%22,%22instructions%22:%22Act%20as%20a%20SQL%20expert.%20Your%20answers%20should%20include%20an%20explanation,%20SQL%20language%20using%20good%20practices%20and%20highlighting%20concepts.%5Cn%5CnThese%20are%20the%20rules:%5Cn-%20Create%20efficient%20SQL%20queries%20that%20do%20not%20overload%20the%20server.%5Cn-%20Optimize%20performance%20through%20adjustments%20to%20indexes%20and%20database%20structures.%5Cn-%20Develop%20stored%20procedures%20and%20functions%20to%20handle%20complex%20operations.%5Cn-%20Implement%20SQL%20scripts%20that%20automate%20routine%20tasks.%5Cn-%20Manage%20transactions%20to%20maintain%20data%20integrity.%5Cn-%20Debug%20queries%20and%20scripts%20to%20fix%20errors.%5Cn-%20Integrate%20SQL%20with%20other%20programming%20languages%20to%20facilitate%20the%20creation%20of%20more%20robust%20applications.%22,%22image_generation%22:true%7D)",1,1,1cccjwy,0,False,0
+2024-04-24 21:23:34,https://www.reddit.com/r/dataengineering/comments/1cca25z/airbyte_guru_wanted/,False,False,reelznfeelz,"I've got like 3 projects that require building or troubleshooting custom airbyte connectors.  I'm having a heck of a time.  If somebody has either mastered the UI Builder or worked with the CDK enough to be pretty comfortable with developing in it, hit me up and I'll pay you for a couple hours of assistance/mentoring.
+
+Not looking for somebody to do it for me, but rather just do a couple pairing sessions and see if I can get unstuck on a couple things.  And I don't expect somebody to do it for free. ",0,1,1cca25z,4,False,0
+2024-04-24 20:11:22,https://www.reddit.com/r/dataengineering/comments/1cc89t4/managing_dags_with_airflow/,False,False,nelzon421,"Hi guys I recently started testing out airflow and I want to know if there is an easy way to handle all the dags with github. I only came across answers where you have one repo, but that's not what I want. I want to be flexible in my workflow where I can have different projects running in on airflow instance. 
+
+Do you know of any good tips or trick, lmk!",0,1,1cc89t4,1,False,0
+2024-04-24 19:04:35,https://www.reddit.com/r/dataengineering/comments/1cc6luv/open_source_sql_databases_oltp_and_olap_options/,False,False,Data-Queen-Mayra,"Are you leveraging open source SQL databases in your projects?
+
+Check out the article here to see the options out there: [https://www.datacoves.com/post/open-source-databases](https://www.datacoves.com/post/open-source-databases)
+
+Any experiences or questions about integrating these technologies into your tech stack would be appreciated! ",0,1,1cc6luv,0,False,0
+2024-04-24 18:25:13,https://www.reddit.com/r/dataengineering/comments/1cc5mfc/seeking_expert_advice_for_a_data_project_conundrum/,False,False,Sorry-Concentrate580,"Calling all Data Engineers!:
+
+I'm in the process of setting up a table in my AWS RDS, which serves as a crucial data source for my BI tool. As part of the ETL process, I'm consolidating data from multiple tables into a single materialized view, then transforming it into a table (prod\_table\_temp), dropping the existing prod\_table, and finally renaming prod\_table\_temp to prod\_table.
+
+However, I'm aware this approach has its drawbacks. Is there a more efficient way to handle this process, considering our current data store is AWS RDS?
+
+Looking forward to your insights",1,1,1cc5mfc,0,False,0
